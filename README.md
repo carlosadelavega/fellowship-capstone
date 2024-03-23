@@ -2,8 +2,9 @@
 This repository contains two Jupyter notebooks that demonstrate the development of an image classification model to identify stages of Alzheimer's disease using MRI images. The project showcases two approaches: building a convolutional neural network (CNN) model from scratch and applying transfer learning using MobileNetV2. This codebase was developed as part of the 2023 Fusemachines AI Fellowship as my capstone project.
 
 ## Project Structure
-from_scratch_model.ipynb - This notebook contains the code for building and training a CNN model from scratch. It includes data preprocessing, model construction, training, and evaluation.
-transfer_learning_model.ipynb - This notebook demonstrates the application of transfer learning using the pre-trained MobileNetV2 model to classify early Alzheimer's disease stages from MRI images. It covers data preprocessing adapted for MobileNetV2, model customization, training, and evaluation.
+**from_scratch_model.ipynb** - This notebook contains the code for building and training a CNN model from scratch. It includes data preprocessing, model construction, training, and evaluation.
+
+**transfer_learning_model.ipynb** - This notebook demonstrates the application of transfer learning using the pre-trained MobileNetV2 model to classify early Alzheimer's disease stages from MRI images. It covers data preprocessing adapted for MobileNetV2, model customization, training, and evaluation.
 
 ## Getting Started
 ### Prerequisites
