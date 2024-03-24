@@ -1,5 +1,5 @@
 # Early Alzheimer's MRI Image Classifier
-This repository contains two Jupyter notebooks that demonstrate the development of an image classification model to identify stages of Alzheimer's disease using MRI images. The project showcases two approaches: building a convolutional neural network (CNN) model from scratch and applying transfer learning using MobileNetV2. This codebase was developed as part of the 2023 Fusemachines AI Fellowship as my capstone project.
+This repository contains two Jupyter notebooks that demonstrate the development of an image classification model to identify stages of Alzheimer's disease using MRI images. The project showcases two approaches: building a convolutional neural network (CNN) model from scratch and applying transfer learning using MobileNetV2. This codebase was developed as part of the 2023 Fusemachines AI Fellowship as my capstone project. It aims to avoid the pitfalls leading to performance inflation identified by [Yagis *et al*](https://doi.org/10.1038/s41598-021-01681-w), whose experiments found artificial increases between 26% and 46% in models across multiple papers and datasets that omitted subject-level grouping of the data.
 
 ## Project Structure
 **from_scratch_model.ipynb** - This notebook contains the code for building and training a CNN model from scratch. It includes data preprocessing, model construction, training, and evaluation.
@@ -47,7 +47,7 @@ The dataset is around 1.23GB. It is the work of Ninad Aithal and her team. It ca
 
 https://www.kaggle.com/datasets/ninadaithal/imagesoasis/data
 
-The team behind it worked it on a dataset that is part of The Open Access Series of Imaging Studies (OASIS). You can access the originals and learn more about the project at its website:
+The team behind it developed it from a dataset that is part of The Open Access Series of Imaging Studies (OASIS). You can access the originals and learn more about the project at its website:
 
 https://oasis-brains.org/
 
