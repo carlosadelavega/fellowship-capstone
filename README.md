@@ -43,7 +43,7 @@ Follow the instructions and code cells in each notebook to recreate the models.
 
 ## Data
 The dataset used in this project consists of MRI images categorized into four classes representing different stages of Alzheimer's disease. 
-The dataset is around 1.23GB. It is the work of Nina Daithal and her team. It can be found at:
+The dataset is around 1.23GB. It is the work of Ninad Aithal and her team. It can be found at:
 
 https://www.kaggle.com/datasets/ninadaithal/imagesoasis/data
 
